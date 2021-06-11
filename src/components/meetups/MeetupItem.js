@@ -13,7 +13,7 @@ function MeetupItem(props) {
 					<address>{props.address}</address>
 					<p>{props.description}</p>
 				</div>
-				<div className={classes.action}>
+				<div className={classes.actions}>
 					<button>To Favourites</button>
 				</div>
 			</Card>
